@@ -1,0 +1,26 @@
+.all {
+  background-color: rgba(0, 0, 0, 0.938);
+}
+
+.descOfUs,
+.descOfUsTitle {
+  color: aliceblue;
+}
+
+.descOfUsTitle {
+  font-size: 50px;
+}
+
+.descOfUsAll {
+  background: linear-gradient(to left, #7a60ff, #cd9ffa);
+}
+
+.title {
+  color: azure;
+}
+
+.topIMG {
+  align-self: center;
+  width: 50vw;
+  cursor: pointer;
+}

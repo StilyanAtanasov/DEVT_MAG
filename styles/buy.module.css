@@ -1,0 +1,106 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.allPosts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.grid {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.element {
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  object-fit: fill;
+  padding: 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.label {
+  font-size: 20px;
+}
+
+.image {
+  max-height: 13vh;
+  margin-bottom: 10px;
+  display: block;
+  margin: 0 auto;
+  align-self: center;
+}
+
+@media screen and (max-width: 1300px) {
+  .grid {
+    grid-template-columns: repeat(4, auto);
+    gap: 17px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .grid {
+    grid-template-columns: repeat(3, auto);
+    gap: 17px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .grid {
+    grid-template-columns: repeat(2, auto);
+    gap: 17px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .grid {
+    grid-template-columns: repeat(1, auto);
+    gap: 17px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .grid {
+    grid-template-columns: repeat(1, 80%);
+    gap: 10px;
+  }
+}

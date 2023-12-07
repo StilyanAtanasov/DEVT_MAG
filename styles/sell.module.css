@@ -1,0 +1,63 @@
+.all {
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.938);
+  font-family: "Poppins";
+  color: blueviolet;
+  padding: 0 50px;
+}
+
+.formTitle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.newOfferSection {
+  display: flex;
+  align-items: center;
+}
+
+.newOfferForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.newOffer {
+  width: 30vw;
+  margin: 50px;
+  align-self: center;
+}
+
+.inputArea {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+}
+
+.formDesc {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 20px 50px;
+}
+
+.formDesc,
+.formTitle,
+.textShadow {
+  text-shadow: 0.7px 0.7px rgba(255, 255, 255, 0.685);
+}
+
+@media (max-width: 500px) {
+  .newOffer {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .newOffer {
+    width: 40vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .newOfferSection {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,108 @@
+.html {
+  min-height: 100vh;
+  background-color: rgb(16 16 16) !important;
+  font-family: "Poppins";
+  color: blueviolet;
+  padding: 0 50px;
+}
+
+.header {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(0, 255, 191);
+  transition: all 300ms linear;
+}
+
+.headerLogo {
+  max-width: 12vw;
+  max-height: 12vh;
+  cursor: pointer;
+  transition: all 300ms linear;
+}
+
+.bars {
+  font-size: 30px;
+  display: none;
+  transition: all 300ms linear;
+}
+
+.headerLink {
+  font-size: 32px;
+  margin: 15px;
+  text-decoration: none;
+  color: rgb(178, 114, 238);
+}
+
+.headerLink:hover {
+  color: rgb(216, 174, 255);
+  text-decoration: none;
+}
+
+.selected {
+  color: #ea01ff;
+}
+
+.pageDescriberHigh,
+.pageDescriberLow {
+  color: aliceblue;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.pageDescriberLow {
+  font-size: 20px;
+}
+
+.headerNavLow {
+  display: flex;
+  flex-direction: column;
+}
+
+.barsSection {
+  display: none;
+}
+
+.dropMenu {
+  display: none;
+}
+
+.barsSection:hover .dropMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.barsSection:hover .bars {
+  color: #ea01ff;
+  transform: rotate(360deg);
+}
+
+.barsSection:hover .headerLogo {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .pageDescriberHigh {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bars {
+    font-size: 30px;
+    display: block;
+  }
+
+  .barsSection {
+    display: block;
+  }
+
+  .headerNavHigh {
+    display: none;
+  }
+
+  .headerLink {
+    font-size: 15px;
+  }
+}

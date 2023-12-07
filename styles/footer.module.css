@@ -1,0 +1,37 @@
+.footer {
+  padding: 40px;
+  color: azure;
+  font-size: 17px;
+  border-top: 1px solid rgb(0, 255, 191);
+}
+
+.link {
+  text-decoration: none;
+  color: #7a60ff;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: #cd9ffa;
+}
+
+.img {
+  max-height: 10vh;
+}
+
+.ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 650px) {
+  .img {
+    display: none;
+  }
+
+  .contact {
+    display: none;
+  }
+}

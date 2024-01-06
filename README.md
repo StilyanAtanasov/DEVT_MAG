@@ -1,4 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DEVT MAG - React App with Coinbase and Stripe Integration
+
+DEVT MAG is a powerful React app built with Next.js, designed to provide an exceptional experience for buyers and sellers. It seamlessly integrates Coinbase and Stripe for cryptocurrency and traditional payments, making it a versatile platform for content consumption and collaboration.
+
+## Features
+
+- **Intuitive UI:** Clean and user-friendly interface for an optimal reading and navigation experience.
+- **Coinbase Integration:** Accept cryptocurrencies through Coinbase for transactions.
+- **Stripe Payments:** Securely handle traditional credit/debit card payments with Stripe.
+- **User Profiles:** Personalized profiles for users to manage preferences and contributions.
+- **Roles:** Two distinct roles - Seller and Buyer.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/devt-mag.git
 
 ## Getting Started
 
@@ -17,18 +34,3 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

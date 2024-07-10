@@ -15,7 +15,7 @@ DEVT MAG is a powerful React app built with Next.js, designed to provide an exce
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/devt-mag.git
+   git clone https://github.com/CoolShadow1/DEVT_MAG.git 
 
 ## Getting Started
 
